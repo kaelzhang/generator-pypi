@@ -11,18 +11,23 @@
 
 # generator-pypi
 
-<!-- description -->
+Yeoman generator for python package index.
 
-## Install
-
-```sh
-$ npm install generator-pypi --save
-```
+It's a real pain to initialize a python project everyday!
 
 ## Usage
 
-```js
-var generator_pypi = require('generator-pypi');
+```sh
+# install yo first
+npm i -g yo
+
+# install generator-pypi
+npm i -g generator-pypi
+
+# yo!
+yo pypi
+
+# Oh, yeah, all done!
 ```
 
 ## License
