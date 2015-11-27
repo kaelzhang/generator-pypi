@@ -1,0 +1,28 @@
+{
+  "name": "generator-pypi",
+  "version": "1.0.0",
+  "description": "generator-pypi",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/generator-pypi.git"
+  },
+  "keywords": [
+    "generator-pypi"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/generator-pypi/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
